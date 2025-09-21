@@ -1,1 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+#runBtn {
+  padding: 10px 20px;
+  margin: 15px 0;
+  border: none;
+  border-radius: 6px;
+  background: #007acc;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#runBtn:hover {
+  background: #005fa3;
+}
+
+#output {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.door {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+.open {
+  background-color: green;
+}
+
+.closed {
+  background-color: red;
+}
 
